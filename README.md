@@ -2,7 +2,7 @@
 A web app that converts natural language input received from users into regex to transform CSV/Excel data. Upload a file, describe a pattern (e.g., "match phone numbers"), and apply regex-based replacements to selected columns. The app was built with Django, React, and OpenAI. Supports previewing and downloading the transformed data.
 
 
-## 🚀 Features
+##  Features
 
 - Upload CSV or Excel files
 - Describe patterns in natural language (e.g., "match emails", "find dates")
@@ -13,7 +13,7 @@ A web app that converts natural language input received from users into regex to
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend**: Django + Django REST Framework
 - **Frontend**: React
@@ -22,70 +22,78 @@ A web app that converts natural language input received from users into regex to
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 project-root/
-├── api/ # Django app handling API logic
-├── backend/ # Django project configuration (settings.py, urls.py, etc.)
-├── frontend/ # React frontend code
-├── venv/ # Python virtual environment
-├── .env # Contains OpenAI API key
-├── db.sqlite3 # SQLite database file
-└── manage.py # Django project runner
+- api/ # Django app handling API logic
+- backend/ # Django project configuration (settings.py, urls.py, etc.)
+- frontend/ # React frontend code
+- venv/ # Python virtual environment
+- .env # Contains OpenAI API key
+- db.sqlite3 # SQLite database file
+- manage.py # Django project runner
 
-**Use a virtual environment to isolate your Django dependencies.**
+---
 
-**venv\\Scripts\\activate \# For Windows**
+**Recommended to use a virtual environment to isolate  the dependencies.**
 
-**pip install -r requirements.txt**
+venv\Scripts\activate # For Windows**
+
+---
 
 **Make sure to set the Open_API_Key in the environment file**
 
-**Backend: Django Setup python manage.py runserver**
+##Backend: Django Setup python manage.py runserver 
+---
+##Frontend: React Setup cd frontend npm start**
 
-**Frontend: React Setup cd frontend npm start**
+Make sure Django is running before this
 
-**Make sure Django is running before this**
-
-**API Overview**
+## API Overview
 
 1.  **/api/upload/**
 
-**Handles file upload and parsing.**
+Handles file upload and parsing.
 
 2.  **/api/regex/**
 
-**Accepts { description: \"match phone numbers\" }**
+ Accepts { description: \"match phone numbers\" }**
 
-**Responds with { regex, flags, explanation, confidence }**
+ Responds with regex pattern
 
 3.  **/api/transform/**
 
-**Inputs: description, column, replacement, data**
+Inputs: description, column, replacement, data
 
-**Output: Transformed data**
+Output: Transformed data
 
-**How to direct**
+---
 
-**Upload a file (.csv or .xlsx)**
+## How-to directory
 
-**Describe a regex pattern in natural language**
+Upload a file (.csv or .xlsx)
 
-**Select column + enter replacement text**
+Describe a regex pattern in natural language
 
-**See a highlighted preview**
+Select column + enter replacement text
 
-**Download the cleaned data as .csv**
+See a highlighted preview
 
-**Built using:**
+Download the cleaned data as .csv
 
-**React**
+---
 
-**Django REST Framework**
+## Built using:
 
-**Pandas**
+-React
 
-**OpenAI GPT-3.5 API**
+-Django REST Framework
+
+-OpenAI GPT-3.5 API
+
+---
+##Demo Video Link
+https://drive.google.com/drive/folders/1dyC9FjlCGOF7DhBg5C_ziqv8RFcgMK9s?usp=sharing
 
 
 
