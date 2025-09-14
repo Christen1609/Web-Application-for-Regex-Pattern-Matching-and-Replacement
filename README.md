@@ -33,64 +33,60 @@ project-root/
 ├── db.sqlite3 # SQLite database file
 └── manage.py # Django project runner
 
-## 🧪 Python Virtual Environment Setup
+**Use a virtual environment to isolate your Django dependencies.**
 
-Use a virtual environment to isolate your Django dependencies.
+**venv\\Scripts\\activate \# For Windows**
 
+**pip install -r requirements.txt**
 
-venv\Scripts\activate  # For Windows
+**Make sure to set the Open_API_Key in the environment file**
 
-pip install -r requirements.txt
+**Backend: Django Setup python manage.py runserver**
 
-Make sure to set the Open_API_Key in the environment file 
+**Frontend: React Setup cd frontend npm start**
 
-Backend: Django Setup
-python manage.py runserver
+**Make sure Django is running before this**
 
-Frontend: React Setup
-cd frontend
-npm start
+**API Overview**
 
-Make sure Django is running before this 
+1.  **/api/upload/**
 
-API Overview
-1. /api/upload/
+**Handles file upload and parsing.**
 
-Handles file upload and parsing.
+2.  **/api/regex/**
 
-2. /api/regex/
+**Accepts { description: \"match phone numbers\" }**
 
-Accepts { description: "match phone numbers" }
+**Responds with { regex, flags, explanation, confidence }**
 
-Responds with { regex, flags, explanation, confidence }
+3.  **/api/transform/**
 
-3. /api/transform/
+**Inputs: description, column, replacement, data**
 
-Inputs: description, column, replacement, data
+**Output: Transformed data**
 
-Output: Transformed data
+**How to direct**
 
-How to direct 
+**Upload a file (.csv or .xlsx)**
 
-Upload a file (.csv or .xlsx)
+**Describe a regex pattern in natural language**
 
-Describe a regex pattern in natural language
+**Select column + enter replacement text**
 
-Select column + enter replacement text
+**See a highlighted preview**
 
-See a highlighted preview
+**Download the cleaned data as .csv**
 
-Download the cleaned data as .csv
+**Built using:**
 
-Built using:
+**React**
 
-React
+**Django REST Framework**
 
-Django REST Framework
+**Pandas**
 
-Pandas
+**OpenAI GPT-3.5 API**
 
-OpenAI GPT-3.5 API 
 
 
 
