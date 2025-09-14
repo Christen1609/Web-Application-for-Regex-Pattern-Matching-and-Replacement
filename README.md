@@ -49,7 +49,7 @@ project-root/
 **Frontend: React Setup** 
           cd frontend 
           npm start
-
+---
 ## Make sure Django is running before this
 
 ## API Overview
