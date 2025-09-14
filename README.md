@@ -98,6 +98,10 @@ project-root/
 ## Project files and Demo video Google Drive Link : 
 https://drive.google.com/drive/folders/1dyC9FjlCGOF7DhBg5C_ziqv8RFcgMK9s?usp=sharing
 
+---
+## Note
+The Project files have been uploaded to the Google Drive as a zip folder along with the Demo video 
+
 
 
 
