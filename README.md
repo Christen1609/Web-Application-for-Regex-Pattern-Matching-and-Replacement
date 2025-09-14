@@ -18,7 +18,7 @@ A web app that converts natural language input received from users into regex to
 - **Backend**: Django + Django REST Framework
 - **Frontend**: React
 - **LLM**: OpenAI API (gpt-3.5-turbo)
-- **File Handling**: Pandas
+
 
 ---
 
@@ -50,7 +50,7 @@ project-root/
           cd frontend 
           npm start
 
-Make sure Django is running before this
+##Make sure Django is running before this
 
 ## API Overview
 
@@ -95,7 +95,7 @@ Make sure Django is running before this
 - OpenAI GPT-3.5 API
 
 ---
-##Demo Video Link
+##Demo Video Link: 
 https://drive.google.com/drive/folders/1dyC9FjlCGOF7DhBg5C_ziqv8RFcgMK9s?usp=sharing
 
 
