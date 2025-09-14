@@ -43,10 +43,10 @@ project-root/
 
 **Make sure to set the Open_API_Key in the environment file**
 
-##Backend: Django Setup 
-       python manage.py runserver 
+**Backend: Django Setup**
+    python manage.py runserver 
 ---
-##Frontend: React Setup 
+**Frontend: React Setup** 
           cd frontend 
           npm start
 
@@ -56,19 +56,19 @@ Make sure Django is running before this
 
 1.  **/api/upload/**
 
-- Handles file upload and parsing.
+    - Handles file upload and parsing.
 
 2.  **/api/regex/**
 
- - Accepts { description: \"match phone numbers\" }**
+    - Accepts { description: \"match phone numbers\" }**
 
- - Responds with regex pattern
+    - Responds with regex pattern
 
 3.  **/api/transform/**
 
-- Inputs: description, column, replacement, data
+    - Inputs: description, column, replacement, data
 
-- Output: Transformed data
+    - Output: Transformed data
 
 ---
 
@@ -88,11 +88,11 @@ Make sure Django is running before this
 
 ## Built using:
 
--React
+- React
 
--Django REST Framework
+- Django REST Framework
 
--OpenAI GPT-3.5 API
+- OpenAI GPT-3.5 API
 
 ---
 ##Demo Video Link
