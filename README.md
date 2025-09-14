@@ -95,7 +95,7 @@ project-root/
 - OpenAI GPT-3.5 API
 
 ---
-## Demo Video Link: 
+## Project files and Demo video Google Drive Link : 
 https://drive.google.com/drive/folders/1dyC9FjlCGOF7DhBg5C_ziqv8RFcgMK9s?usp=sharing
 
 
