@@ -50,7 +50,7 @@ project-root/
           cd frontend 
           npm start
 
-##Make sure Django is running before this
+## Make sure Django is running before this
 
 ## API Overview
 
